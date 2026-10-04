@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-lexend: 'Lexend', system-ui, sans-serif;
+    --font-dyslexic: 'OpenDyslexic', 'Lexend', sans-serif;
+    --font-comic: 'Comic Neue', cursive, sans-serif;
+  }
+
+  body {
+    font-family: var(--font-lexend);
+    min-height: 100vh;
+  }
+}
+
+/* Accessibility Font Classes */
+.font-lexend {
+  font-family: 'Lexend', system-ui, sans-serif !important;
+}
+
+.font-dyslexic {
+  font-family: 'OpenDyslexic', 'Lexend', sans-serif !important;
+  letter-spacing: 0.05em;
+  word-spacing: 0.1em;
+}
+
+.font-comic {
+  font-family: 'Comic Neue', cursive, sans-serif !important;
+}
+
+/* Reading Assistant Themes */
+.theme-default {
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+
+.theme-sepia {
+  background-color: #fcf6e8 !important;
+  color: #3b2f20 !important;
+}
+
+.theme-dark {
+  background-color: #0f172a !important;
+  color: #f1f5f9 !important;
+}
+
+.theme-high-contrast {
+  background-color: #000000 !important;
+  color: #ffff00 !important;
+}
+
+.reading-ruler-mask {
+  box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.45);
+}
+
+/* Smooth Focus Rings for Accessibility */
+*:focus-visible {
+  outline: 3px solid #0d9488;
+  outline-offset: 2px;
+}
+
+/* Child-friendly glowing pulse */
+@keyframes softPulse {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 4px 14px 0 rgba(13, 148, 136, 0.2);
+  }
+  50% {
+    transform: scale(1.02);
+    box-shadow: 0 8px 24px 0 rgba(13, 148, 136, 0.35);
+  }
+}
+
+.animate-soft-pulse {
+  animation: softPulse 2.5s infinite ease-in-out;
+}
