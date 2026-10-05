@@ -4,6 +4,8 @@ build/
 
 bin/
 obj/
+**/bin/
+**/obj/
 
 .env
 .env.*
