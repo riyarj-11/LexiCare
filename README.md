@@ -1,5 +1,11 @@
 # LexiCare | AI-Powered Educational Screening & Dyslexia Support
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-22c55e?style=for-the-badge&logo=github)](https://riyarj-11.github.io/LexiCare/)
+[![Status](https://img.shields.io/badge/Status-Online%2024%2F7-0284c7?style=for-the-badge)](https://riyarj-11.github.io/LexiCare/)
+
+👉 **Permanent Live Application URL (Share with friends/testers):**  
+### 🌐 **[https://riyarj-11.github.io/LexiCare/](https://riyarj-11.github.io/LexiCare/)**
+
 > **Important Safety & Educational Notice:**  
 > *LexiCare is an educational screening and personalized learning support system designed to identify reading patterns and recommend targeted practice. It does **not** provide medical or formal clinical diagnoses.*
 
