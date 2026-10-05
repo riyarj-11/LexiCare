@@ -12,3 +12,4 @@ obj/
 .vscode/
 .idea/
 .DS_Store
+*.db
