@@ -9,11 +9,13 @@ export default defineConfig({
     react()
   ],
   server: {
+    host: '0.0.0.0',
     port: 3000,
+    strictPort: true,
     allowedHosts: true,
     proxy: {
       '/api': {
-        target: 'http://localhost:5200',
+        target: 'http://127.0.0.1:5200',
         changeOrigin: true,
         secure: false,
       }
